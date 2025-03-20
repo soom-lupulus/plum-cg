@@ -1,0 +1,11 @@
+export const YAO_TOTAL = 6;
+export const YANG_MOST = 9;
+export const YIN_MOST = 6;
+export const YANG_LITTLE = 7;
+export const YIN_LITTLE = 8;
+export const TIAN_ORIGIN = 4;
+export const TIAN_DI_MIX = TIAN_ORIGIN ** 2;
+export const YANG_C = YANG_MOST * TIAN_ORIGIN;
+export const YANG_G = YIN_LITTLE * TIAN_DI_MIX;
+export const YIN_C = YIN_MOST * TIAN_ORIGIN;
+export const YIN_G = YANG_LITTLE * TIAN_DI_MIX;
