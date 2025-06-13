@@ -1,6 +1,6 @@
 {
   "name": "plum-cg",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
   "typings": "./dist/typings/src/index.d.ts",
@@ -37,6 +37,11 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/soom-lupulus/plum-cg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soom-lupulus/plum-cg"
   },
   "keywords": ["策轨", "策数", "轨数", "梅花", "梅花易数", "plum", "邵子易数", "皇极经世"]
 }
